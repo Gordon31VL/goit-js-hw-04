@@ -9,9 +9,9 @@ function calcAverageCalories(days){
 
   if (totalDays > 0) {
     return totalCalories / totalDays
-  } else {
-    return 0
   }
+
+  return totalCalories
 } 
 
 

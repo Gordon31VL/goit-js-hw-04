@@ -6,11 +6,7 @@ function isEnoughCapacity(products, containerSize) {
     totalProduct += sum;
   }
 
-  if (totalProduct > containerSize) {
-    return false
-  }
-
-  return true
+  return containerSize > totalProduct
 }
 
 
